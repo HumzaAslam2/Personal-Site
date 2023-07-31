@@ -100,17 +100,6 @@ main > section img
     margin-bottom: 10px;
 }
 
-.video-div
-{
-    height: 350px !important;
-    flex-direction: column !important;
-}
-
-.projects video
-{
-    height: 300px;
-}
-
 .about-me
 {
     margin-top: 30px;
