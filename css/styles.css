@@ -1,0 +1,96 @@
+h2 {
+    color: #1D4DE0;
+}
+
+section img  {
+    height: 200px;
+    width: fit-content;
+    margin-right: 30px;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.reddit-sans-normal {
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.reddit-sans-light {
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero {
+    background-color: #FAD700;
+}
+
+.about-me {
+    height: 500px;
+}
+
+.contact-me {
+    height: 200px;
+}
+
+.about-me  {
+    margin-top: 30px;
+}
+
+.about-me > div, .contact-me > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me img {
+    margin: 20px 0;
+    border-radius: 50%;
+}
+
+.about-me p {
+    width: 400px;
+}
+
+.contact-me h3 {
+    margin: 20px 0;
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
